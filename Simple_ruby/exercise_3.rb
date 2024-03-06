@@ -7,4 +7,4 @@ b = gets.chomp.to_i
 sum = a + b
 
 puts "The sum of a and b is #{sum}"
-
+#

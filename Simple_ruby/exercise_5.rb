@@ -7,3 +7,4 @@ width = gets.chomp.to_i
 area = length * width
 
 puts "the result of area is #{area}"
+#
