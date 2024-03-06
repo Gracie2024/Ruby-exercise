@@ -4,7 +4,10 @@
 # Print a message that includes both the birth year and the calculated age
 def calculate_age(birth_year)
   current_year = 2024
-  age = birth_year - current_year
+  age = current_year - birth_year
+  "My birth year is #{birth_year} the current year is #{current_year} My age now is #{age}"
 end
-birth_year = 1985
-p = calculate_age(birth_year)
+print 'birth year -'
+
+birth_year = gets.chomp.to_i
+p  calculate_age(birth_year)
