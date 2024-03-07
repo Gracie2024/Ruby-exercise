@@ -1,4 +1,6 @@
-# Write a Ruby program that takes two numbers as user input, calculates their sum, and prints the result.
+# Write a Ruby program that takes two numbers as user input,
+# calculates their sum, and prints the result.
+
 print 'input a number'
 a = gets.chomp.to_i
 print 'input a number'
