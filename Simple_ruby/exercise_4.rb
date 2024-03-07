@@ -7,3 +7,4 @@ first_name = gets.chomp
 print 'input last name:'
 last_name = gets.chomp
 p "My name is #{first_name}#{last_name}"
+#
