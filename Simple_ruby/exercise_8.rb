@@ -10,5 +10,3 @@ exponent = gets.chomp.to_i
 answer = base ** exponent
 puts "the answers is: #{answer}"
 
-puts "the square root of 5 is #{answer}"
-
