@@ -2,6 +2,7 @@
 # that takes a year as input and checks whether it is a leap year.
 # Print the result.
 
+print 'year:'
   year = gets.chomp.to_i
 
 if year % 4 == 0
@@ -9,4 +10,5 @@ if year % 4 == 0
 else
   print "not leap year"
 end
+
 
