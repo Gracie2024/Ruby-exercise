@@ -1,4 +1,5 @@
-#Write a Ruby program that takes a number as input, determines whether it's even or odd, and prints the result.
+#Write a Ruby program that takes a number as input,
+# determines whether it's even or odd, and prints the result.
 
 print 'input a number:'
 num = gets.chomp.to_i
@@ -11,4 +12,3 @@ end
 
 puts result
 
-#
