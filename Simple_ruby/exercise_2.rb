@@ -16,3 +16,5 @@ quotient = a / b.to_f
 operation = ["#{sum}","#{difference}","#{product}","#{quotient}"]
 
 puts operation
+
+
