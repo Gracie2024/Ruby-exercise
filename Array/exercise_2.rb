@@ -34,5 +34,3 @@ daily_temperature.map do |temperature|
   end
 end
 
-
-p daily_temperature
