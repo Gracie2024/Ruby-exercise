@@ -2,7 +2,7 @@
 # For each result, classify and store it as "Pass" if the percentage is 50 or above, and "Fail"
 # otherwise
 
-exam_results = [85, 90, 47]
+exam_results = [85, 90, 47, 50]
 index = 0
 exam_results.length
 while index < exam_results.length

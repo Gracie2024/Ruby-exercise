@@ -28,14 +28,14 @@ new_student_scores = student_scores.map do |score|
     "A+"
   elsif score_a?(score)
     "A"
-  elsif score >= 80 && score <= 89
-    "B"
-  elsif score >= 70 && score <= 79
-    "C"
-  elsif score < 70
-    "D"
-  end
-end
+    # elsif score >= 80 && score <= 89
+    #  "B"
+    # elsif score >= 70 && score <= 79
+    #  "C"
+    # elsif score < 70
+    #   "D"
+    #end
+    #  end
 
 
-p new_student_scores
+#p new_student_scores
