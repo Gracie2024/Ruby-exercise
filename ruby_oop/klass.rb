@@ -11,7 +11,7 @@
 
 
 class Car
-  attr_accessor :color, :car_type
+  attr_accessor :color, :car_type, :model, :year, :plate_number
   attr_reader :model, :year, :plate_number
   attr_writer :serial_number
 
@@ -68,10 +68,10 @@ cars =[
   Car.new('pink', 'aston_martin', '2002', 'class 1', 'wxy114')
 ]
 
-# 1. filter the array of car class and return cars with class type 1
-#class_type1 = cars.select { |car| car.car_type =='class 1'}
-#puts  "Cars of Class 1:"
-#class_type1.each { |car| puts car.details[:model]}
+#1. filter the array of car class and return cars with class type 1
+class_type1 = cars.select { |car| car.car_type =='class 1'}
+puts  "Cars of Class 1:"
+class_type1.each { |car| puts car.details[:model]}
 
 # class_1_cars.each |car| puts #{car.details}
 
@@ -82,8 +82,10 @@ cars =[
 #3. Return most common color
 # color_groups = cars.group_by(&:color)
 
-#most_common_color = color_groups.max_bycolor, cars| cars.count }.first
+#most_common_color = color_groups.max_by color, cars| cars.count }.first
 #puts "Most common color is #{most_common_color}"
 
 # 4. modify the decrease speed to avoid negative number
+
+
 
