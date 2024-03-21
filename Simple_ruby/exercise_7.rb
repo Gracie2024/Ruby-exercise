@@ -6,7 +6,7 @@ celsius = gets.chomp.to_i
 
 fahrenheit = (9/5 * celsius)+32
 
-puts "The 100 degrees Celsius is 212 degrees Fahrenheit"
+puts "The #{celsius} degrees in Celsius once converted to Fahrenheit is #{fahrenheit}."
 #
 
 

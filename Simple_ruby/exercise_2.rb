@@ -17,4 +17,4 @@ operation = ["#{sum}","#{difference}","#{product}","#{quotient}"]
 
 puts operation
 
-#
+

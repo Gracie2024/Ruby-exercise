@@ -8,14 +8,12 @@
 #Student # attributes: id, name, birth_date, course_id, parent
 #Room    # attributes: id, name
 
+require_relative 'principal'
+class Student < Principal
+  attr_accessor :course_id, :parent
 
-class Student
-  attr_accessor :student_id, :name, :birth_date, :course_id, :parent
-
-  def initialize (student_id, name, birth_date, course_id, parent)
-    @student_id = student_id
-    @name = name
-    @birth_date = birth_date
+  def initialize (id, name, birth_date, course_id, parent)
+    super(id, name, birth_date)
     @course_id = course_id
     @parent = parent
   end

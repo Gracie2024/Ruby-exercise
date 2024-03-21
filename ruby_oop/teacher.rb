@@ -1,10 +1,10 @@
-class Teacher
-  attr_accessor :teacher_id, :name, :birth_date, :specialty, :email
+require_relative 'principal'
 
-  def initialize(teacher_id, name, birth_date, specialty, email)
-    @teacher_id = teacher_id
-    @name = name
-    @birth_date = birth_date
+class Teacher < Principal
+  attr_accessor :specialty, :email
+
+  def initialize(id, name, birth_date, specialty, email)
+    super(id,name,birth_date)
     @specialty = specialty
     @email = email
   end
