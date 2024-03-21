@@ -8,7 +8,7 @@ print 'year:'
 if year % 4 == 0
   print "leap year"
 else
-  print "not leap year"
+  print "The year: #{year} is not a leap year"
 end
 
 
