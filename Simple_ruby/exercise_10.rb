@@ -5,12 +5,12 @@ a = gets.chomp.to_i
 print 'b: '
 b = gets.chomp.to_i
 
-puts "the old value of the two variables is #{a}, #{b}"
+puts "the old value of the two variables is #{a} and #{b}"
 
 temp = a
 a = b
 b = temp
 
-puts "the new value of the two variables is #{a}, #{b}"
+puts "the new value of the two variables is #{a} and #{b}"
 #
 
