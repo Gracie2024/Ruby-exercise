@@ -1,8 +1,78 @@
+
+
+
 require_relative 'Course'
-require_relative 'Subject'
+#require_relative 'Subject'
 require_relative 'Student'
-require_relative 'Teacher'
-require_relative 'Room'
+#require_relative 'Teacher'
+#require_relative 'Room'
+
+
+Course.generate_samples
+#Subject.generate_samples
+courses = Course.get_courses_records
+courses.each do |course|
+  p "COURSE #{course.course_id} #{course.name}"
+end
+
+#Student.generate_samples
+Student.generate_samples
+#Subject.generate_samples
+students = Student.get_student_records
+students.each do |student|
+  p "STUDENTS #{student.id} #{student.name}"
+end
+#Teacher.generate_samples
+
+#def display_data(students, courses)
+#  puts "Students:"
+#  students.each { |student| puts "#{student.id}. #{student.name}"
+
+#  puts "Courses:"
+#  courses.each do |course|
+#    puts "#{course.id}. #{course.name}"
+# end
+
+
+
+# # Define Student and Course classes (assuming these are already defined)
+#
+# Sample Student data
+#class Student
+#  attr_reader :id, :name
+
+#  def initialize(id, name)
+#    @id = id
+#    @name = name
+#  end
+# end
+
+# # Sample Course data
+# class Course
+#  attr_reader :id, :name
+#
+#  def initialize(id, name)
+#   @id = id
+#    @name = name
+#  end
+#end
+#
+# # Sample students and courses data
+#students = [
+#   Student.new(1, "John"),
+#   Student.new(2, "Alice"),
+#   Student.new(3, "Bob")
+ ]
+#
+#courses = [
+#  Course.new(101, "Math"),
+#   Course.new(102, "Science"),
+#  Course.new(103, "History")
+ ]
+#
+#Call display_data method with sample data
+display_data(students, courses)
+
 
 #@courses.each do |course|
 #puts "Course ID: #{course.course_id}"
